@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://gatsby-smooth-scroll.vercel.app/
+https://gatsby-smooth-scroll.vercel.app/toc-example/
 
 ## Uses
 

@@ -1,6 +1,7 @@
-import styled from "styled-components"
+import React from 'react'
+import styled from 'styled-components'
 
-export const P = styled.p`
+export const StyledP = styled.p`
   margin-top: ${({ theme }) => theme.spacing[3]};
   strong {
     font-weight: bold;
@@ -9,3 +10,8 @@ export const P = styled.p`
     font-style: italic;
   }
 `
+
+export const P = props => {
+  const { children, ...rest } = props
+  return <StyledP {...rest}>{children}</StyledP>
+}

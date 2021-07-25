@@ -28,7 +28,7 @@
     "styled-reset": "4.2.2"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "prettier": "2.3.2"
   },
   "resolutions": {
     "gatsby-react-router-scroll": "3.0.3"
